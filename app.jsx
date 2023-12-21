@@ -1,7 +1,15 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import main from "./src/main.jsx"
+import Header from "./src/Header.jsx"
+
 
 function App(){
-    return
+    return(
+        <div>
+            <Header/>
+        </div>
+    )
 }
+
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<App/>)
