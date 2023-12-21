@@ -1,12 +1,14 @@
 import React from "react"
-import ReactDOM from "react-dom"
+import ReactDOM from "react-dom/client"
 import Header from "./src/Header.jsx"
+import Main from "./src/Main.jsx"
 
 
 function App(){
     return(
         <div>
             <Header/>
+            <Main />
         </div>
     )
 }
