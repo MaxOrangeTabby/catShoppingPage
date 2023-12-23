@@ -35,7 +35,13 @@ body{
 
     font-size: 30px;
 
+    color: #A7BEAE;
+
     background-color: #E7E8D1;
+}
+
+.nav-bar > button:hover{
+    background-color:#B85042
 }
 
 .top-section{
@@ -60,8 +66,22 @@ body{
 }
 
 .mid-section{
-    padding: 400px 0px;
+    height: 800px;
+
     background-color: #f6f9fc;
+}
+
+.mid-section-imgs{
+    display: flex;
+    justify-content: space-evenly;
+    size: 10px;
+
+    margin: none;
+    padding: 40px 0px;
+}
+
+.mid-section-imgs > img{
+    width: 100px;
 }
 
 .example-cats{
