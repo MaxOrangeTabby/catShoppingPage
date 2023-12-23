@@ -84,6 +84,48 @@ body{
     width: 100px;
 }
 
+.mid-section-caption{
+    display: flex;
+    font-family: 'GT Haptik Medium',sans-serif;
+    padding-right: 140px;
+}
+
+.mid-section-caption > div > p{
+    display: block;
+    width: 200px;   
+
+    letter-spacing: 3px;
+    line-height: 2;
+
+    padding-top: 80px;
+
+    
+}
+
+.texas-caption{
+    margin-left: 265px;
+}
+
+.airplane-caption{
+    margin-left: 165px;
+}
+
+.moneySymbol-caption{
+    margin-left: 235px;
+}
+
+.texas-desc{
+    margin-left: 370px;
+}
+
+.airplane-desc{
+    margin-left: 230px;
+}
+
+.moneySymbol-desc{
+    margin-left: 285px;
+}
+
 .example-cats{
     background-image: -webkit-linear-gradient(95deg,  #A7BEAE 50%, white 50%);
    

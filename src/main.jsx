@@ -22,7 +22,20 @@ export default function Main(){
                     <img src = {airplane}/>
                     <img src = {moneySymbol}/>
                 </div>
-                <div className = "mid-section-caption"></div>
+                <div className = "mid-section-caption">
+                    <div>
+                        <h1 className = "texas-caption">Locally Sourced in Texas</h1>
+                        <p className = "texas-desc">All of our cats are from Texas, which means they know what great BBQ taste like. An important trait in a cat. </p>
+                    </div>
+                    <div>
+                        <h1 className = "airplane-caption">Fast Delivery Times</h1>
+                        <p className = "airplane-desc">We guarantee our delivery times will be from 6-12 years, or get 1% of your money back.</p>
+                    </div>
+                    <div>
+                        <h1 className = "moneySymbol-caption">Premium Price</h1>
+                        <p className = "moneySymbol-desc">Everything is bigger in Texas, including our prices. Due to the luxurious aspects of orange cats, we charge an average of $7777. Prices vary based on specific breed.</p>
+                    </div>
+                </div>
             </div>
             <div className ="example-cats">
                     <img src = {cat1}/>
