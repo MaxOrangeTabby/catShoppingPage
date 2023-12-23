@@ -5,6 +5,11 @@ export default function Header(){
     return(
         <div className = "header">
             <img src = {logo} className = "header-logo"/>
+            <div className = "nav-bar">
+                <button>Home</button>
+                <button>About Us</button>
+                <button>FAQ</button>
+            </div>
         </div>
     )
     

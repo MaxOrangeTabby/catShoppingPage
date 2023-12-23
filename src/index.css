@@ -1,21 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: -webkit-linear-gradient(100deg,  #A7BEAE 50%, #B85042 50%);
+    
     
     background-position: 0px 0px;
     background-repeat: no-repeat;
-
-    width: 2000px
-    
 }
 
 .header{
-    background-color: #E7E8D1;
-    opacity: 1;
-    
+    display: flex;
+    justify-content: space-between;
+    background-color: #E7E8D1; 
+       
 }
-   
 
 .header-logo{
     width: 75px;
@@ -24,10 +21,29 @@ body{
     
 }
 
-.main-page{
-    height: 1000px;
+.nav-bar{
+    padding: 45px 0px;
+    padding-right: 50px;
+
 }
-.main-page > p{
+
+.nav-bar > button{
+   
+    margin: 0;
+    padding: 0 8px;
+    border: none;
+
+    font-size: 30px;
+
+    background-color: #E7E8D1;
+}
+
+.top-section{
+    margin: 0;
+    padding: 50px 0px;
+    background-image: -webkit-linear-gradient(105deg,  white 50%, #B85042 50%);
+}
+.top-section-txt{
 
     color: #E7E8D1;
     font-family: 'GT Haptik Medium',sans-serif;
@@ -36,21 +52,41 @@ body{
 
     letter-spacing: -3px;
     
-    padding-top: 60px;
-    padding-left: 20px
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 40px;
+
+    margin: 0px;
+}
+
+.mid-section{
+    padding: 400px 0px;
+    background-color: #f6f9fc;
 }
 
 .example-cats{
+    background-image: -webkit-linear-gradient(95deg,  #A7BEAE 50%, white 50%);
+   
+
     display:flex;
+    flex-wrap: wrap;
     justify-content:space-evenly;
+    padding-top: 0px;
+    padding-bottom: 100px;
+
+    margin-bottom: 500px;
 }
 
 .example-cats > img{
     width: 100px;
+    
 
     border: 4px solid #E7E8D1;
-    border-radius: 4px;
+    border-radius: 50px;
 
-    margin-top: 300px;
+    margin-top: 600px;
+    margin-bottom: 200px;
+
+
 }
 
