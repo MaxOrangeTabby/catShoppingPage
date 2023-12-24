@@ -137,8 +137,7 @@ body{
     justify-content:space-evenly;
 
     position: relative;
-    top: 650px;
-
+    top: 675px;
     
 }
 
@@ -149,9 +148,8 @@ body{
     border-radius: 50px;
 }
 
-.example-cats-options{
+.example-cats-buttons{
     display: flex;
-    justify-content: space-evenly;
 }
 
 .example-cats-buttons{
@@ -159,17 +157,48 @@ body{
     top: 720px;
 }
 
-.example-cats-buttons > button{
+.example-cats-buttons1{
+    margin-left: 350px;
+}
+.example-cats-buttons2{
+    margin-left: 300px;
+}
+.example-cats-buttons3{
+    margin-left: 300px;
+}
+
+.example-cats-buttons > div > button{
     display: block;
     
     font-weight: bold;
     font-size: 25px;
 
     margin-bottom: 10px;
-
-    border
+    
     
     width: 200px;
+}
+
+.example-cats-buttons-upper{
+    border: none;
+    border-radius: 20px;
+
+    background-color:black ;
+    color: white;
+
+    padding: 4px 0px;
+}
+
+.example-cats-buttons-upper:hover{
+    background-color: #717378;
+}
 
 
+.example-cats-buttons-lower{
+    background-color: transparent;
+    border: none;
+}
+
+.example-cats-buttons-lower:hover{
+    color: #717378; 
 }

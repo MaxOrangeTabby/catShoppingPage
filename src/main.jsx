@@ -45,16 +45,19 @@ export default function Main(){
                 </div>
                 <div className = "example-cats-options">
                     <div className = "example-cats-buttons">
-                        <button>Buy Cat</button>
-                        <button>More Info</button>
-                    </div>
-                    <div className = "example-cats-buttons">
-                        <button>Buy Cat</button>
-                        <button>More Info</button>
-                    </div>
-                    <div className = "example-cats-buttons">
-                        <button>Buy Cat</button>
-                        <button>More Info</button>
+                        <div className = "example-cats-buttons1">
+                            <button className = "example-cats-buttons-upper">Purchase Cat</button>
+                            <button className = "example-cats-buttons-lower">More Info</button>
+                        </div>
+                        <div className = "example-cats-buttons2">
+                            <button className = "example-cats-buttons-upper">Purchase Cat</button>
+                            <button className = "example-cats-buttons-lower">More Info</button>
+                        </div>
+                        <div className = "example-cats-buttons3">
+                            <button className = "example-cats-buttons-upper">Purchase Cat</button>
+                            <button className = "example-cats-buttons-lower">More Info</button>
+                        </div>
+
                     </div>
                 </div>
             </div>
