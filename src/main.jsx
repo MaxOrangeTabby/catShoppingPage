@@ -33,14 +33,30 @@ export default function Main(){
                     </div>
                     <div>
                         <h1 className = "moneySymbol-caption">Premium Price</h1>
-                        <p className = "moneySymbol-desc">Everything is bigger in Texas, including our prices. Due to the luxurious aspects of orange cats, we charge an average of $7777. Prices vary based on specific breed.</p>
+                        <p className = "moneySymbol-desc">Everything is bigger in Texas, including our prices. Due to the luxurious aspects of orange cats, we charge a minimum of $7777. Prices vary based on specific breed.</p>
                     </div>
                 </div>
             </div>
             <div className ="example-cats">
+                <div className = "example-cats-pics">
                     <img src = {cat1}/>
                     <img src = {cat2}/>
                     <img src = {cat3}/>
+                </div>
+                <div className = "example-cats-options">
+                    <div className = "example-cats-buttons">
+                        <button>Buy Cat</button>
+                        <button>More Info</button>
+                    </div>
+                    <div className = "example-cats-buttons">
+                        <button>Buy Cat</button>
+                        <button>More Info</button>
+                    </div>
+                    <div className = "example-cats-buttons">
+                        <button>Buy Cat</button>
+                        <button>More Info</button>
+                    </div>
+                </div>
             </div>
         </div>
 
