@@ -183,7 +183,7 @@ body{
     border: none;
     border-radius: 20px;
 
-    background-color:black ;
+    background-color:#B85042 ;
     color: white;
 
     padding: 4px 0px;
@@ -197,6 +197,7 @@ body{
 .example-cats-buttons-lower{
     background-color: transparent;
     border: none;
+    color: #B85042;
 }
 
 .example-cats-buttons-lower:hover{
