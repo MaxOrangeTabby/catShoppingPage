@@ -1,2 +1,2 @@
 # catShoppingPage
- A webpage to find and buy new cats
+ A fake webpage to buy cats, created using React and CSS
