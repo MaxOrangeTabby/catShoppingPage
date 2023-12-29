@@ -1,4 +1,6 @@
+
 body{
+    
     margin: 0;
     padding: 0;
     
@@ -50,7 +52,7 @@ body{
     background-image: -webkit-linear-gradient(105deg,  white 50%, #B85042 50%);
 }
 .top-section-txt{
-
+    
     color: #E7E8D1;
     font-family: 'GT Haptik Medium',sans-serif;
     font-weight: 4;
@@ -66,7 +68,9 @@ body{
 }
 
 .mid-section{
+    
     height: 800px;
+    width: 100vw;
 
     background-color: #f6f9fc;
 }
@@ -86,6 +90,9 @@ body{
 
 .mid-section-caption{
     display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+
     font-family: 'GT Haptik Medium',sans-serif;
     padding-right: 140px;
 }
@@ -150,9 +157,12 @@ body{
 
 .example-cats-buttons{
     display: flex;
+    flex-flow: row wrap;
+
 }
 
 .example-cats-buttons{
+    
     position: relative;
     top: 720px;
 }
