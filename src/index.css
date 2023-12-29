@@ -232,3 +232,43 @@ body{
 .shopping-button:hover{
     background-color: #E7E8D1;
 }
+
+.shopping-page-header{
+    display: flex;
+    
+    background-color: #E7E8D1;
+    height: 75px;
+    
+}
+
+.shopping-page-title{
+    position:absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.shopping-cart-logo{
+    width: 50px;
+    align-self: center;
+
+    margin-left: auto;
+    margin-right: 30px;
+    
+}
+
+.shopping-page-header-caption{
+    background-color: #A7BEAE;
+    height: 30px;
+}
+
+.shopping-page-header-caption > p{
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    padding-top: 5px;
+    text-align: center;
+}
