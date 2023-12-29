@@ -5,11 +5,21 @@ import cat3 from "/images/wackyOrangeCat.jpg"
 import texasPic from "/images/texas.png"
 import airplane from "/images/airplane.png"
 import moneySymbol from "/images/moneySymbol.png"
+import logo from "/images/logo.png"
+
 
 
 export default function Main(){
     return(
         <div className = "main-page">
+            <div className = "header">
+                <img src = {logo} className = "header-logo"/>
+                <div className = "nav-bar">
+                    <button>Home</button>
+                    <button>About Us</button>
+                    <button>FAQ</button>
+                </div>
+            </div>
             <div className = "top-section">
                 <div className = "top-section-txt">
                     <p>Our Collection of Orange Cats has No Bounds</p>
