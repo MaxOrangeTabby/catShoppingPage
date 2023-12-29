@@ -1,6 +1,5 @@
 
-body{
-    
+body{  
     margin: 0;
     padding: 0;
     
@@ -30,7 +29,6 @@ body{
 }
 
 .nav-bar > button{
-   
     margin: 0;
     padding: 0 8px;
     border: none;
@@ -140,7 +138,7 @@ body{
 
 .example-cats-pics{
     display:flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content:space-evenly;
 
     position: relative;
@@ -150,19 +148,13 @@ body{
 
 .example-cats-pics > img{
     width: 100px;
-
     border: 4px solid #E7E8D1;
     border-radius: 50px;
 }
 
 .example-cats-buttons{
     display: flex;
-    flex-flow: row wrap;
-
-}
-
-.example-cats-buttons{
-    
+    /* flex-wrap: wrap; */
     position: relative;
     top: 720px;
 }
@@ -200,7 +192,7 @@ body{
 }
 
 .example-cats-buttons-upper:hover{
-    background-color: #717378;
+    background-color: #E7E8D1;
 }
 
 
@@ -212,4 +204,31 @@ body{
 
 .example-cats-buttons-lower:hover{
     color: #717378; 
+}
+
+.shopping-button-container{
+    display: flex;
+
+    flex-wrap: wrap;
+    position: relative;
+    top: 850px;
+    align-items: center;
+    justify-content: center;
+
+}
+.shopping-button{
+    background-color: #B85042;
+    color: white;
+
+    border: none;
+    border-radius: 2px;
+
+    padding: 10px 10px;
+
+    font-size: 20px;
+    font-family: 'GT Haptik Medium',sans-serif;
+}
+
+.shopping-button:hover{
+    background-color: #E7E8D1;
 }

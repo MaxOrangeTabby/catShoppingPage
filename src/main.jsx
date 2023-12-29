@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 import cat1 from "/images/staringOrangeCat.png"
 import cat2 from "/images/violentOrangeCat.jpg"
 import cat3 from "/images/wackyOrangeCat.jpg"
@@ -68,6 +69,11 @@ export default function Main(){
                             <button className = "example-cats-buttons-lower">More Info</button>
                         </div>
 
+                    </div>
+                    <div className = "shopping-button-container">
+                        <Link to = "/shopping-page">
+                            <button className = "shopping-button" type = "button">Look at More Cats</button>
+                        </Link>
                     </div>
                 </div>
             </div>
