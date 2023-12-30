@@ -241,11 +241,31 @@ body{
     
 }
 
+.shopping-page-back-btn{
+    background-color: #0a2540;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 6px 10px;
+
+    color: white;
+
+    margin: 23px 20px;
+}
+
+.shopping-page-back-btn:hover{
+    background-color: #A7BEAE;
+}
+
 .shopping-page-title{
     position:absolute;
     left: 50%;
     transform: translate(-50%, 0);
 
+    margin: 15px 0px;
+
+    color: #0a2540;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -271,4 +291,23 @@ body{
 
     padding-top: 5px;
     text-align: center;
+}
+
+.cat-card{
+    background-color: #A7BEAE;
+
+    margin-top: 50px;
+    width: 150px;
+    height: 300px;
+}
+
+.cat-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cat-card-img{
+    max-width: 100px;
+    padding: 10px 25px;
+    
 }
