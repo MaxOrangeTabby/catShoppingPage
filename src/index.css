@@ -296,19 +296,27 @@ body{
 .cat-card{
     background-color: #A7BEAE;
 
+    border: 6px solid #E7E8D1;
     margin-top: 50px;
-    width: 150px;
+    width: 225px;
     height: 300px;
 }
 
 .cat-cards{
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
     justify-content: space-evenly;
 }
 
 .cat-card-img{
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 20px 0px;
     max-width: 100px;
-    padding: 10px 25px;
     
 }
 
@@ -320,4 +328,7 @@ body{
 .cat-card-info > p{
     margin-left: auto;
     margin-right: auto;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
