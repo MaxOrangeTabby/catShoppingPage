@@ -311,3 +311,13 @@ body{
     padding: 10px 25px;
     
 }
+
+.cat-card-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.cat-card-info > p{
+    margin-left: auto;
+    margin-right: auto;
+}
