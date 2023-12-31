@@ -8,7 +8,7 @@ export default function ShoppingPage(){
         return(
             <CatCard
                 img = {card.img}
-                color = {card.count}
+                color = {card.color}
                 count = {card.count}
                 price = {card.price}
             
