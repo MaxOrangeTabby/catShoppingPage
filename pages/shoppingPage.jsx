@@ -4,6 +4,8 @@ import {Link} from "react-router-dom"
 import catCardInfo from "../components/catCardInfo.jsx"
 
 export default function ShoppingPage(){
+    const [cartAmt, setCartAmt] = React.useState(0)
+
     const catCards = catCardInfo.map(function(card){
         return(
             <CatCard
@@ -23,7 +25,10 @@ export default function ShoppingPage(){
                 <button className = "shopping-page-back-btn" type = "button">Back</button>
             </Link>
             <h1 className = "shopping-page-title">Shopping Page</h1>
-            <img className = "shopping-cart-logo" src = "./images/shoppingCart.png" />
+            <div className = "shopping-page-cart">
+                <img className = "shopping-cart-logo" src = "./images/shoppingCart.png" />
+                <p className = "shopping-cart-amt">{cartAmt}</p>
+            </div>
         </div>
         <div className = "shopping-page-header-caption">
             <p>5% OFF ALL ORDERS OVER $99,999</p>
