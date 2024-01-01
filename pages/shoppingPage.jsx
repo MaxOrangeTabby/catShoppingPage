@@ -5,7 +5,6 @@ import catCardInfo from "../components/catCardInfo.jsx"
 
 export default function ShoppingPage(){
     const [cartAmt, setCartAmt] = React.useState(0)
-
     const catCards = catCardInfo.map(function(card){
         return(
             <CatCard
@@ -13,7 +12,6 @@ export default function ShoppingPage(){
                 color = {card.color}
                 count = {card.count}
                 price = {card.price}
-            
             />
         )
     })
