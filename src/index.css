@@ -133,7 +133,6 @@ body{
     background-image: -webkit-linear-gradient(95deg,  #A7BEAE 50%, white 50%);
     margin-bottom: 10px;
     padding-bottom: 1000px;
-
 }
 
 .example-cats-pics{
@@ -143,7 +142,6 @@ body{
 
     position: relative;
     top: 675px;
-    
 }
 
 .example-cats-pics > img{
@@ -176,7 +174,6 @@ body{
     font-size: 25px;
 
     margin-bottom: 10px;
-    
     
     width: 200px;
 }
@@ -214,8 +211,8 @@ body{
     top: 850px;
     align-items: center;
     justify-content: center;
-
 }
+
 .shopping-button{
     background-color: #B85042;
     color: white;
@@ -238,7 +235,6 @@ body{
     
     background-color: #E7E8D1;
     height: 75px;
-    
 }
 
 .shopping-page-back-btn{
@@ -268,7 +264,6 @@ body{
     color: #0a2540;
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
 
 .shopping-page-cart{
@@ -312,12 +307,26 @@ body{
 }
 
 .cat-card{
+    display:flex;
+    flex-direction: column;
+
     background-color: #A7BEAE;
 
-    border: 6px solid #E7E8D1;
     margin-top: 50px;
+    
+}
+
+.cat-card-top{
+    border: 6px solid #E7E8D1;
+    border-bottom: none;
     width: 225px;
     height: 300px;
+}
+
+.add-cart-btn{
+    margin-top: px;
+    border: 6px solid #E7E8D1;
+    font-weight: bold;
 }
 
 .cat-cards{
@@ -335,7 +344,6 @@ body{
     
     padding: 20px 0px;
     max-width: 100px;
-    
 }
 
 .cat-card-info{
@@ -348,5 +356,4 @@ body{
     margin-right: auto;
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
 }
