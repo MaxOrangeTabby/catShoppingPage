@@ -318,14 +318,13 @@ body{
 
 .cat-card-top{
     border: 6px solid #E7E8D1;
-    border-bottom: none;
     width: 225px;
     height: 300px;
 }
 
 .add-cart-btn{
-    margin-top: px;
-    border: 6px solid #E7E8D1;
+    margin-top: 0px;
+    border: 6px solid #0a2540;
     font-weight: bold;
 }
 
@@ -339,10 +338,13 @@ body{
 .cat-card-img{
     display: flex;
 
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     
-    padding: 20px 0px;
+    border:  6px solid #E7E8D1;
+
+    padding: 0px 0px;
     max-width: 100px;
 }
 
