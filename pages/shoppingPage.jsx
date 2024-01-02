@@ -4,7 +4,13 @@ import {Link} from "react-router-dom"
 import catCardInfo from "../components/catCardInfo.jsx"
 
 export default function ShoppingPage(){
+
     const [cartAmt, setCartAmt] = React.useState(0)
+
+    function addCart(){
+        setCartAmt(prevAmt => prevAmt + 1)
+    }
+
     const catCards = catCardInfo.map(function(card){
         return(
             <CatCard
@@ -12,6 +18,7 @@ export default function ShoppingPage(){
                 color = {card.color}
                 count = {card.count}
                 price = {card.price}
+                handleClick = {addCart}
             />
         )
     })
