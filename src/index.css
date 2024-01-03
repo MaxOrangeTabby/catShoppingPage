@@ -326,6 +326,25 @@ body{
     margin-top: 0px;
     border: 6px solid #0a2540;
     font-weight: bold;
+
+    padding: 4px 0px;
+}
+.add-cart-btn:hover{
+    background-color: #cbc9c9e9;
+}
+
+.buy-btn{
+    border: none;
+    background-color: #B85042;
+    color: white;
+
+    font-weight: bold;
+
+    padding: 4px 0px;
+}
+
+.buy-btn:hover{
+    background-color: #9b3022;
 }
 
 .cat-cards{
