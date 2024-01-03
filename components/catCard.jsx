@@ -12,6 +12,7 @@ export default function CatCard(props){
                 </div>
             </div>
             <button className = "add-cart-btn" onClick = {props.handleClick}>Add To Cart</button>
+            <button className = "buy-btn">Buy Now</button>
         </div>
     )
 }
