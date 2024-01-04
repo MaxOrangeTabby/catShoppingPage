@@ -254,6 +254,30 @@ body{
     background-color: #A7BEAE;
 }
 
+.login-btn{
+    color: white;
+
+    background-color: #B85042;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 25px;
+
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 20px;
+    margin-right: 40px;
+
+    border: 0px;
+    border-radius: 20px;
+}
+
+.login-btn:hover{
+    background-color: #9b3022;
+}
+
 .shopping-page-title{
     position:absolute;
     left: 50%;
@@ -268,7 +292,7 @@ body{
 
 .shopping-page-cart{
     display: flex;
-
+    justify-content: end;
     margin-left: auto;
     margin-right: 10px;
 }
