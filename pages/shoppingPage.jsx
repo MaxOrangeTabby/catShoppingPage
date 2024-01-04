@@ -30,8 +30,8 @@ export default function ShoppingPage(){
                 <button className = "shopping-page-back-btn" type = "button">Back</button>
             </Link>
             <h1 className = "shopping-page-title">Shopping Page</h1>
-            <p className = "login-btn">Log In/Sign Up</p>
             <div className = "shopping-page-cart">
+                <button className = "login-btn">Log In/Sign Up</button>
                 <img className = "shopping-cart-logo" src = "./images/shoppingCart.png" />
                 <p className = "shopping-cart-amt">{cartAmt}</p>
             </div>
