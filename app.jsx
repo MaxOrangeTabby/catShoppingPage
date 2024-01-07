@@ -3,6 +3,7 @@ import { BrowserRouter as Router,Routes, Route} from "react-router-dom"
 import ReactDOM from "react-dom/client"
 import Main from "./src/Main.jsx"
 import ShoppingPage from "./pages/shoppingPage.jsx"
+import LoginPage from "./pages/loginPage.jsx"
 
 
 let siteWidth = 1280;
@@ -17,6 +18,7 @@ function App(){
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/shopping-page" element={<ShoppingPage />} />
+                <Route path="/login-pagee" element={<LoginPage />} />
             </Routes>
     </Router>
     )
