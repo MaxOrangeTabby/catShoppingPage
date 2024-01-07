@@ -31,7 +31,9 @@ export default function ShoppingPage(){
             </Link>
             <h1 className = "shopping-page-title">Shopping Page</h1>
             <div className = "shopping-page-cart">
-                <button className = "login-btn">Log In/Sign Up</button>
+                <Link to =  "/login-page">
+                    <button className = "login-btn">Log In/Sign Up</button>
+                </Link>
                 <img className = "shopping-cart-logo" src = "./images/shoppingCart.png" />
                 <p className = "shopping-cart-amt">{cartAmt}</p>
             </div>
