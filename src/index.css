@@ -407,15 +407,28 @@ body{
 .login-page{
     display: flex;
     justify-content: center;
+    background-color: #f7fafc;
+    width: 100vw;
+    min-height: 100vh;
+
+    height:max-content;
 }
+
 .login-box{
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    background-color: #E7E8D1;
-    width: 500px;
+    position: absolute;
+    top: 40px;
+
+    box-shadow: 0 0 20px #ccc;
+
+    background-color: #ffffff;
+    width: 400px;
+    height: 400px;
 }
+
 .login-form{
     display: flex;
     flex-direction: column;
