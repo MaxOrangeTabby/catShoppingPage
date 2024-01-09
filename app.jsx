@@ -6,6 +6,7 @@ import ShoppingPage from "./pages/shoppingPage.jsx"
 import LoginPage from "./pages/loginPage.jsx"
 
 
+
 let siteWidth = 1280;
 let scale = screen.width /siteWidth;
 
@@ -19,6 +20,7 @@ function App(){
                 <Route path="/" element={<Main />} />
                 <Route path="/shopping-page" element={<ShoppingPage />} />
                 <Route path="/login-page" element={<LoginPage />} />
+
             </Routes>
     </Router>
     )

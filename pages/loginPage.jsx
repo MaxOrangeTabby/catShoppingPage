@@ -1,4 +1,5 @@
 import React from "react"
+import {Link} from "react-router-dom"
 
 export default function LoginPage(){
     const [loginInfo, setLoginInfo] = React.useState({
@@ -21,6 +22,9 @@ export default function LoginPage(){
         <div className = "login-page">
             <div className = "login-box">
                 <div className = "login-header">
+                <Link to = "/shopping-page">
+                    <button className = "login-header-back-btn">Back</button>
+                </Link>
                     <div className = "login-header-logo">
                         <img src = "../images/logo.png"/>
                     </div>

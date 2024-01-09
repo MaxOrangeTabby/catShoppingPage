@@ -72,7 +72,7 @@ export default function Main(){
                     </div>
                     <div className = "shopping-button-container">
                         <Link to = "/shopping-page">
-                            <button className = "shopping-button" type = "button">Look at More Cats</button>
+                            <button className = "shopping-button" type ="button">Look at More Cats</button>
                         </Link>
                     </div>
                 </div>
