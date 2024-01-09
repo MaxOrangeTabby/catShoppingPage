@@ -1,6 +1,11 @@
 import React from "react"
 
 export default function LoginPage(){
+    const[loginInfo, setLoginInfo] = React.useState({
+        username: "",
+        password: ""
+    })
+
     return(
         <div className = "login-page">
             <div className = "login-box">
@@ -11,8 +16,8 @@ export default function LoginPage(){
                     <h1> Sign In To Account</h1>
                 </div>
                 <form className = "login-form">
-                    <input type="text"/>
-                    <input type="text"/>
+                    <input type="text" name = "username" id = "username"/>
+                    <input type="text" name = "password" id = "password"/>
                 </form>
                 <button>Login</button>
             </div>
