@@ -403,3 +403,24 @@ body{
     font-weight: 500;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.login-page{
+    display: flex;
+    justify-content: center;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #E7E8D1;
+    width: 500px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+
+    margin: auto;
+}
