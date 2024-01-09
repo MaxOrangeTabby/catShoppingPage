@@ -27,10 +27,12 @@ export default function LoginPage(){
                     <h1> Sign In To Account</h1>
                 </div>
                 <form className = "login-form">
+                    <label for="username">Username</label>
                     <input type="text" name = "username" id = "username" value = {loginInfo.username} onChange = {formChange}/>
+                    <label for="username">Password</label>
                     <input type="text" name = "password" id = "password" value  = {loginInfo.password} onChange = {formChange}/>
                 </form>
-                <button>Login</button>
+                <button>Sign In</button>
             </div>
         </div>
         
