@@ -420,13 +420,23 @@ body{
     justify-content: center;
 
     position: absolute;
-    top: 40px;
+    top: 100px;
 
     box-shadow: 0 0 20px #ccc;
 
     background-color: #ffffff;
     width: 400px;
     height: 400px;
+}
+
+.login-form > input{
+    margin: 10px 0px;
+}
+
+.login-box > button{
+    width: 250px;
+    margin: auto;
+    margin-bottom: 40px;
 }
 
 .login-form{
@@ -436,4 +446,35 @@ body{
     width: 250px;
 
     margin: auto;
+}
+
+.login-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-header > h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login-header-logo{
+    display: flex;
+    justify-content: center;
+    background-color: #f7fafc;
+
+        
+    margin: auto;
+    margin-top: 10px; 
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    
+}
+
+.login-header-logo > img{
+    align-self: center;
+    width: 50px;
 }
