@@ -237,6 +237,10 @@ body{
     height: 75px;
 }
 
+.shopping-page-body{
+    margin-bottom: 80px;
+}
+
 .shopping-page-back-btn{
     background-color: #0a2540;
 
