@@ -46,6 +46,7 @@ export default function ShoppingPage(){
                 {catCards}
             </div>
         </div>
+        <div className = "shopping-page-footer"></div>
     </div>
     )
 }
