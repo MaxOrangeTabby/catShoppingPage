@@ -238,7 +238,12 @@ body{
 }
 
 .shopping-page-body{
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+}
+.shopping-page-footer{
+    border-top: 10px solid #A7BEAE;
+    background-color: #E7E8D1;
+    height: 40px;
 }
 
 .shopping-page-back-btn{
